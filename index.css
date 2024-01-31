@@ -1,0 +1,104 @@
+#app_title{
+    text-align: center;
+}
+.user_screen {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text content */
+}
+img{
+    max-height: 45px;
+    max-width: 45px;
+    object-fit: fill;
+}
+
+.user{
+    display: flex;
+    margin: 25px;
+}
+
+.user_a{
+    margin-right: 250px;
+    flex-wrap: wrap;
+
+}
+
+.user_b{
+    margin-left: 250px;
+    flex-wrap: wrap;
+}
+
+.input_msg{
+    width: 500px;
+    display: flex;
+    margin-top: 100px;
+}
+
+body{
+    background-color: #25D366 !important;
+}
+
+.women_img{
+    border-radius: 50% !important;
+}
+
+.user_b_timing{
+    margin-left: 60px;
+}
+
+.user_a_profile{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.user_b_profile{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80px;
+    max-height: 80px;
+    margin-left: auto;
+}
+.user_a_msg{
+    display: inline !important;
+    max-width: 350px;
+    text-align: start;
+    border-radius: 2%;
+    padding-left: 12px;
+}
+
+.user_b_msg{
+    margin-right: 25px;
+    display: inline !important;
+    max-width: 350px;
+    text-align: end;
+    border-radius: 2%;
+    padding-right: 12px;
+}
+.form-control{
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .user_a {
+        margin-right: 10px;
+    }
+
+    .user_b {
+        margin-left: 10px; 
+    }
+
+    .user_a_msg,
+    .user_b_msg {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:515px){
+    .input_msg{
+        width: fit-content;
+    }
+}
